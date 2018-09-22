@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1933912385631608}
+  m_IsPrefabAsset: 1
+--- !u!1 &1933912385631608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4664018057938120}
+  - component: {fileID: 114650221258476902}
+  - component: {fileID: 114586373522506922}
+  - component: {fileID: 114029921963197066}
+  - component: {fileID: 114678739854881638}
+  - component: {fileID: 114427047361308100}
+  - component: {fileID: 114422198590737526}
+  m_Layer: 0
+  m_Name: SandboxGameplay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4664018057938120
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1933912385631608}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 430.91653, y: 311.12238, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114029921963197066
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1933912385631608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f14b10469f699446b1b7b5fcb1192c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VersionCheckDelay: 5
+  PlayersData: 
+  TeamsList: []
+--- !u!114 &114422198590737526
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1933912385631608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 119e885b0ea544145ad1f4c1d4b9dd37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dayNight: {fileID: 0}
+  Trees: {fileID: 0}
+  dayTimeSync: 0
+  TreesCutData: 
+--- !u!114 &114427047361308100
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1933912385631608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cde86e7447d52b4a8a62929699a33fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Log: 
+  TextColor: {r: 1, g: 1, b: 1, a: 1}
+  ActiveChat: 0
+  ShowTextDuration: 5
+--- !u!114 &114586373522506922
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1933912385631608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eedc9351b3b1694690d97cf8bfb4245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playersManager: {fileID: 114029921963197066}
+  scoreManager: {fileID: 114678739854881638}
+  environment: {fileID: 114422198590737526}
+  chatLog: {fileID: 114427047361308100}
+  MapEnabled: 0
+  View: 0
+  PlayersAlive: 0
+  PlayersAliveMax: 0
+  EndgameRanked: 0
+  IsBattleStart: 0
+  IsBattleEnded: 0
+  IsAutoSpawn: 1
+--- !u!114 &114650221258476902
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1933912385631608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 130
+    i1: 42
+    i2: 47
+    i3: 187
+    i4: 16
+    i5: 179
+    i6: 38
+    i7: 36
+    i8: 187
+    i9: 105
+    i10: 135
+    i11: 53
+    i12: 48
+    i13: 179
+    i14: 249
+    i15: 210
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114678739854881638
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1933912385631608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9952c00ac145f408210b91fc9a55e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Toggle: 0
